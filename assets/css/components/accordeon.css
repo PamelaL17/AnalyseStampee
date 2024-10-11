@@ -1,0 +1,108 @@
+.accordeon {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.accordeon-content {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+    display: none;
+}
+
+.accordeon-content h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.accordeon-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.accordeon-content th {
+    background-color: #780000;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.accordeon-content td {
+    font-size: 1rem;
+    padding: 12px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+/* Style pour les lignes paires */
+.accordeon-content tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style pour les lignes impaires */
+.accordeon-content tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.accordeon-content tr:hover {
+    background-color: #ddd;
+    cursor: default;
+}
+
+.accordeon-content > div {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.accordeon-content > div > h4 {
+    font-size: 1.1rem;
+    color: #780000;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.accordeon-content h5 {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.accordeon-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.accordeon-content p strong {
+    color: #780000;
+    font-weight: bold;
+}
+
+.accordeon-content > div > div {
+    margin-top: 10px;
+}
+
+.accordeon-content > div {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}

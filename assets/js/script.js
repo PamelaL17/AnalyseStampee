@@ -20,3 +20,16 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// Gestion des accordeons
+const accordions = document.querySelectorAll(".accordeon");
+    
+accordions.forEach(accordion => {
+    accordion.addEventListener("click", function() {
+        // Selectionne le contenu associer a  l'accordeon
+        const content = this.nextElementSibling;
+
+        // Ouvre ou ferme l'accordeon
+        content.style.display = content.style.display === "none" || content.style.display === "" ? "block" : "none";
+    });
+});
