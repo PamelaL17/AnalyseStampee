@@ -1,0 +1,41 @@
+.question {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.question h2 {
+    font-size: wem;
+    color: #780000;
+    
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.question div {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #0077cc;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.question h3 {
+    font-size: 1.1em;
+    color: #780000;
+    margin: 10px 0;
+}
+
+.question h3:last-child {
+    border-bottom: none;
+}
+
+.question h3::after {
+    content: "❓ ";
+    font-size: 1.2rem;
+    color: red;
+    vertical-align: middle;
+}
+
+.hidden {
+    display: none;
+}
